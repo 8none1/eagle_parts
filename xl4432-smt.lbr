@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.4.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="XL4432-SMT">
+<wire x1="0" y1="0" x2="17" y2="0" width="0.127" layer="21"/>
+<wire x1="17" y1="0" x2="17.01" y2="16.5" width="0.127" layer="21"/>
+<wire x1="17.01" y1="16.5" x2="0" y2="16.5" width="0.127" layer="21"/>
+<wire x1="0" y1="16.5" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="GND@1" x="15.49" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="GPIO0" x="14.22" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="GPIO1" x="12.95" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="SDI" x="7.87" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="SDO" x="9.14" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="VDD" x="10.41" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="NIRQ" x="4.06" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="SCLK" x="6.6" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="GPIO2" x="11.68" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="NSEL" x="5.33" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="GND@2" x="1.52" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="SDN" x="2.79" y="16.9" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="ANT" x="15.63" y="-0.5" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<smd name="GND@3" x="14.36" y="-0.5" dx="1.6764" dy="0.8128" layer="1" roundness="10" rot="R90"/>
+<text x="3.65" y="7.9" size="1.27" layer="21">XL4432-SMT</text>
+</package>
+</packages>
+<symbols>
+<symbol name="XL4432-SMT">
+<pin name="GND@1" x="-22.86" y="5.08" length="middle" direction="pwr"/>
+<pin name="GPIO0" x="-22.86" y="0" length="middle"/>
+<pin name="GPIO1" x="-22.86" y="-5.08" length="middle"/>
+<pin name="GPIO2" x="-22.86" y="-10.16" length="middle"/>
+<pin name="VDD" x="-22.86" y="-15.24" length="middle" direction="pwr"/>
+<pin name="SDO" x="-22.86" y="-20.32" length="middle"/>
+<pin name="SDI" x="-22.86" y="-25.4" length="middle"/>
+<pin name="SCLK" x="-22.86" y="-30.48" length="middle"/>
+<pin name="NSEL" x="-22.86" y="-35.56" length="middle"/>
+<pin name="NIRQ" x="-22.86" y="-40.64" length="middle"/>
+<pin name="SDN" x="-22.86" y="-45.72" length="middle"/>
+<pin name="GND@2" x="-22.86" y="-50.8" length="middle" direction="pwr"/>
+<pin name="ANT" x="20.32" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="GND@3" x="20.32" y="0" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-17.78" y1="7.62" x2="-17.78" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-53.34" x2="15.24" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-53.34" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="-17.78" y2="7.62" width="0.254" layer="94"/>
+<text x="2.54" y="-7.62" size="1.27" layer="95">XL4432-SMT</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XM4432-SMT" prefix="4332-">
+<description>&lt;b&gt;XL4432-SMT&lt;/b&gt;  Si4432 based transceiver
+&lt;br /&gt;
+Draw by Will Cooke.  Made available under the GPL.  For full licence details please see the github page or read any copy of the GPL v2.
+&lt;br /&gt;&lt;p&gt;
+Datasheet available here:&lt;a href="http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4430-31-32.pdf"&gt;http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4430-31-32.pdf&lt;/a&gt;
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.whizzy.org"&gt;www.whizzy.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href="https://github.com/8none1"&gt;https://github.com/8none1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href="https://twitter.com/8none1"&gt;@8none1&lt;/a
+&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="XL4432-SMT" x="2.54" y="25.4"/>
+</gates>
+<devices>
+<device name="" package="XL4432-SMT">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO1" pad="GPIO1"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="NIRQ" pad="NIRQ"/>
+<connect gate="G$1" pin="NSEL" pad="NSEL"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="SDI" pad="SDI"/>
+<connect gate="G$1" pin="SDN" pad="SDN"/>
+<connect gate="G$1" pin="SDO" pad="SDO"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
