@@ -106,7 +106,7 @@
 <deviceset name="XM4432-SMT" prefix="4332-">
 <description>&lt;b&gt;XL4432-SMT&lt;/b&gt;  Si4432 based transceiver
 &lt;br /&gt;
-Draw by Will Cooke.  Made available under the GPL.  For full licence details please see the github page or read any copy of the GPL v2.
+Drawn by Will Cooke.  Made available under the GPL.  For full licence details please see the github page or read any copy of the GPL v2.
 &lt;br /&gt;&lt;p&gt;
 Datasheet available here:&lt;a href="http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4430-31-32.pdf"&gt;http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4430-31-32.pdf&lt;/a&gt;
 &lt;p&gt;
